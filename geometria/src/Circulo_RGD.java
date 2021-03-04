@@ -1,9 +1,11 @@
 
+
 public class Circulo_RGD extends FiguraGeometrica_RGD {
 	private double radio;
 	//Constante pi
 	static final double PI = 3.1416;
 	
+
 	public Circulo_RGD(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
